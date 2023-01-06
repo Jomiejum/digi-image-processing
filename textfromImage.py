@@ -10,5 +10,5 @@ img = Image.open('sample-image.png')
 # This section extracts text from the selected image
 text = tess.image_to_string(img)
 
-# Prints extracted text from the image to the terminal 
+# Prints extracted text from the image to the terminal
 print(text)
